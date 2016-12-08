@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+          android:constantSize="false"
+          android:dither="true"
+          android:variablePadding="false">
+
+    <!--  <item android:drawable="@mipmap/picture"
+           android:state_pressed="true"
+           android:state_focused="true"
+           android:state_hovered="true"
+           android:state_selected="true"
+           android:state_checkable="true"
+           android:state_checked="true"
+           android:state_enabled="true"
+           android:state_activated="true"
+           android:state_window_focused="true"/>-->
+
+
+    <!--按下的状态-->
+    <item android:drawable="@mipmap/picture"
+          android:state_pressed="true"/>
+    <!--获取焦点的状态-->
+    <item android:drawable="@mipmap/picture"
+          android:state_focused="true"/>
+    <!--默认状态-->
+    <item android:drawable="@mipmap/picture"/>
+
+</selector>
+
+
+
+
