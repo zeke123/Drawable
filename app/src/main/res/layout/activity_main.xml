@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
-    <View
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imgeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/transition_drawable"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/bt_button"
         android:layout_width="match_parent"
-        android:layout_height="400dip"
-        android:background="@drawable/layer_drawable"/>
+        android:layout_height="wrap_content"
+        android:text="渐变" />
+
 </LinearLayout>
